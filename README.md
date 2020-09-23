@@ -5,11 +5,11 @@
 # Markdown Syntax Guide
 
 
-**`Markdown`** is a lightweight markup language used for formatting text. The common way we use markdown is in github Readme.md files. It can also be used  in github gists and comments in issues and pull requests.
+**Markdown** is a lightweight markup language used for formatting text. The common way we use markdown is in github Readme.md files. It can also be used  in github gists and comments in issues and pull requests.
 
 Therefore, this guide will be focused on the various syntax that can be used when working with github.  
 
-## **`Syntax Guide`**
+## **Syntax Guide**
 
 - Headings
 - Emphasis
@@ -19,7 +19,6 @@ Therefore, this guide will be focused on the various syntax that can be used whe
 - Blockquote
 - Horizontal Rule
 - Code snippets
-- Button
 - Tables
 - Task List
 - Username @mentions
@@ -28,7 +27,7 @@ Therefore, this guide will be focused on the various syntax that can be used whe
 
 ---
 
-## `Headings`
+## Headings
 
 _For headings, you add a space before the text._
 
@@ -41,25 +40,34 @@ _For headings, you add a space before the text._
    ###### Heading 6 <h6>
 ```
    # Heading 1
-   ## Heading 2 <h2>
-   ### Heading 3 <h3>
-   #### Heading 4 <h4>
-   ##### Heading 5 <h5>
-   ###### Heading 6 <h6>
+   ## Heading 2 
+   ### Heading 3 
+   #### Heading 4 
+   ##### Heading 5 
+   ###### Heading 6 
 
 ---
 
-## `Emphasis`
+## Emphasis
 Italicised text can be written with an underscore or asterix before and after the text.
 
 ``` shell
 _Italicise this text_
 
 *Italicise this text*
+
+`Emphasis on this text`
 ```
+
+_Italicise this text_
+
+*Italicise this text*
+
+`Emphasize on this text`
+
 ---
 
-## `Bold`
+## Bold
 Bold text can be written with a double underscore or double asterix before and after the text.
 
 ``` shell
@@ -69,7 +77,7 @@ __Make this text bold__
 ```
 ---
 
-## `Lists`
+## Lists
 
 Lists comprises of ordered and unordered.
 
@@ -97,7 +105,7 @@ _Note: For Lists, add a space before the text_
 
 ---
 
-## `Images`
+## Images
 
 ``` shell
 ![Alt Text](image url/.jpg)
@@ -111,7 +119,7 @@ _Note: For Lists, add a space before the text_
 
 ---
 
-## `Blockquote`
+## Blockquote
 
 ``` shell
 > blockquote
@@ -121,35 +129,36 @@ _Note: For Lists, add a space before the text_
 
 ---
 
-## `Horizontal rule`
+## Horizontal rule
 
 ``` shell
 ---
 ```
 ---
 
-## `Links`
+## Links
 
 ``` shell
 [Title](Link url)
 ```
 ---
 
-## `Code snippets`
+## Code snippets
 
 ``` shell
 `code`
-
 ```
 
+`
+{
+    "name": "ijae",
+    "task": "eat"
+}
+`
+
 ---
 
-## `Button`
-
-[![Button](Button)](https://giphy.com/search/github)
----
-
-## `Tables`
+## Tables
 
 ``` shell
 | Header 1 | Header 2 | Header 3 |
@@ -167,7 +176,7 @@ _Note: For Lists, add a space before the text_
 
 ---
 
-## `Task List`
+## Task List
 
 A task list comes in handy when you need to indicate progress in your issue list. This also works in pull requests.
 
@@ -184,19 +193,16 @@ A task list comes in handy when you need to indicate progress in your issue list
 
 ---
 
-## `Username @mentions`
+## Username @mentions
+
+You can type the @ symbol followed by a github username. This will notify the user.
+
+eg @ijeomaemeruwa
 
 ---
 
-## `Issue references`
-
-
-
----
-
-## `Emoji`
-
-
+## Emoji
+Github supports the use of emoji by adding colons before and after the emoji name.
 
 ``` shell
 :raised_hands: :metal: :family:
@@ -206,11 +212,20 @@ A task list comes in handy when you need to indicate progress in your issue list
 :raised_hands: :metal: :family:
 :wave: :smirk:
 
-[Webfx.com](https://www.webfx.com/tools/emoji-cheat-sheet/)
+You can find an extensive list here:
+
+- [Webfx.com](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ---
 
-## `References`
+`Note: Take note of the spaces in each syntax`
+
+## References
+
+- [Github guides](https://guides.github.com/features/mastering-markdown/)
+
+
+- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
 
 
